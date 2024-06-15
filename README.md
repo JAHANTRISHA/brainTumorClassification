@@ -22,7 +22,7 @@ This is a classification task using transfer learning. Here, a convolutional neu
 * matplotlib-----------------3.7.1
 
 ## Dataset
-The dataset has been taken from Kaggle. There are four types of brain tumor datasets: glioma, meningioma, notumor, and pituitary. After extracting the Kaggle dataset, there are two folders:
+The dataset has been taken from [Kaggle](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset). There are four types of brain tumor datasets: glioma, meningioma, notumor, and pituitary. After extracting the Kaggle dataset, there are two folders:
 * Training
 * Testing
 In Training folder with subfolders, there are 5712 images.
