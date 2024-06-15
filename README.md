@@ -36,7 +36,9 @@ All image sizes are not the same,  especially in notumor datasets.
      80% for training and 20% for validation.
 ## Data Visualization
 * Pillow
+  
 ![example](https://github.com/JAHANTRISHA/brainTumorClassification/assets/40772173/619341c5-7d0c-4f86-8343-7a07ae858af3)
+
 * matplotlib
 ##  Feature Extraction and Train the model:
 Transfer learning model VGG-19 is used to extract the feature and train the model. Global average pooling is utilized in the top layer to generate the feature map. Moreover, the model is trained using dropout and dense layers.Overfitting is avoided by using a regularizer. We adjusted the model using hyperparameters as well.
